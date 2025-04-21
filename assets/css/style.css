@@ -1,7 +1,7 @@
-body.index {
+
+/* Untuk index */
+body.index{
   font-family: "Plus Jakarta Sans", sans-serif;
-  /* padding: 0px;
-  margin: 0px; */
   background-image: url(../images/cover.png);
   background-repeat: no-repeat;
   background-position: right top;
@@ -291,3 +291,122 @@ footer div.copy {
   font-size: 14px;
   color: #ffffff;
 }
+
+
+/* Untuk form login dan register */
+body.login{
+  font-family: "Plus Jakarta Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* gap: 50px; */
+}
+
+main.login{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+main.login div.logo img{
+  width: 100px;
+}
+
+main.login div.route{
+  display: flex;
+  gap: 3px;
+  color: #5E6282;
+}
+
+main.login div.route a{
+  text-decoration: none;
+  color: #4737FF;
+}
+
+main.login div.form-login{
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-style: solid;  
+  border-width: 2px;
+  border-color: #4475f2 #ffffff #ffffff #ffffff;
+  border-radius: 5px;
+  padding: 35px;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.10);
+}
+
+main.login div.desc h1{
+  margin-top: 24px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+main.login div.desc p{
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+main.login div.form-login form input{
+  border-color: #4737FF;
+  border-style: solid;
+  border-width: 1px;
+  width: 330px;
+  height: 40px;
+  border-radius: 4px;
+}
+
+main.login div.form-login form label{
+  display: block;
+  margin-bottom: 11px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+main.login div.form-login form label.usn{
+  margin-top: 40px;
+}
+
+main.login div.form-login form label.pw{
+  margin-top: 25px;
+}
+
+main.login div.login-button{
+  background-color: #4475F2;
+  width: 330px;
+  height: 43px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+} 
+
+main.login div.login-button a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+main.login div.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: center;
+}
+
+main.login div.footer p{
+  color: #5E6282;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+main.login div.footer p a{
+  text-decoration: none;
+  color: #4737FF;
+}
+
