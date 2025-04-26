@@ -293,7 +293,7 @@ footer div.copy {
 }
 
 
-/* Untuk form login dan register */
+/* Untuk halaman login dan register */
 body.login{
   font-family: "Plus Jakarta Sans", sans-serif;
   display: flex;
@@ -303,6 +303,7 @@ body.login{
   /* gap: 50px; */
 }
 
+/* Untuk halaman login dan register */
 main.login{
   display: flex;
   flex-direction: column;
@@ -311,6 +312,7 @@ main.login{
   gap: 50px;
 }
 
+/* Untuk halaman login dan register */
 main.login div.logo img{
   width: 100px;
 }
@@ -350,7 +352,7 @@ main.login div.desc p{
   font-weight: 400;
 }
 
-main.login div.form-login form input{
+main.login div.form-login form input.textarea{
   border-color: #4737FF;
   border-style: solid;
   border-width: 1px;
@@ -410,3 +412,65 @@ main.login div.footer p a{
   color: #4737FF;
 }
 
+/* Untuk register */
+
+main.login form div.form-container{
+  display: flex;
+  gap: 30px;
+}
+
+main.login form div.form-container div.form-column{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+main.login form div.form-container label.outer-label{
+  margin-top: 40px;
+}
+
+main.login form div.form-container div.form-column div.gender-container{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+main.login form div.form-container div.form-column div.gender-container div.gender{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+main.login form div.form-container div.form-column div.gender-container div.gender div.radio-button{
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  color: #5E6282;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+
+main.login div.form-login div.signup-button{
+  background-color: #4475F2;
+  width: 660px;
+  height: 43px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 28px;
+}
+
+main.login div.form-login div.signup-button a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+input[type="radio"] {
+  transform: scale(1.5);
+}
